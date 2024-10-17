@@ -29,11 +29,18 @@ export const Home = () => {
                 <div className="mx-auto max-w-6xl px-4 sm:px-6">
                     <div className="pb-12 pt-32 md:pb-20 md:pt-40">
                         <div className="pb-12 text-center md:pb-16">
-                            <h1
-                                className="mb-6 border-y text-5xl font-bold [border-image:linear-gradient(to_right,transparent,theme(colors.slate.300/.8),transparent)1] md:text-6xl"
-                            >
-                                KaiHua
-                            </h1>
+                            <div className="flex justify-center mb-6 border-y text-5xl font-bold [border-image:linear-gradient(to_right,transparent,theme(colors.slate.300/.8),transparent)1] md:text-6xl">
+                                <svg width="252" height="60" viewBox="0 0 85 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M0.375133 17.5259L1.84028 17.1006V5.78116C1.84028 5.43456 1.81665 5.214 1.76938 5.11948C1.72212 5.0092 1.59609 4.89104 1.39128 4.76501L0.351501 4.22149L0.422396 2.42551L1.15497 2.30735C3.23453 1.92925 4.69179 1.72444 5.52677 1.69293C5.66856 2.07103 5.77096 2.48064 5.83397 2.92176V12.5397L8.45706 9.98754C8.53583 9.90877 8.57521 9.82212 8.57521 9.72759C8.57521 9.64882 8.55158 9.5858 8.50432 9.53854L7.84264 8.71144L8.10258 7.41172H13.3487C13.4905 7.93161 13.5851 8.49089 13.6323 9.08955L9.70952 12.4452L14.2704 18.7311V19.7709H10.1112L5.83397 13.6268V16.3207C5.83397 16.6516 5.85761 16.8721 5.90487 16.9824C5.95213 17.0927 6.07817 17.2109 6.28297 17.3369L7.44091 17.9986L7.34638 19.7709H0.49329L0.375133 17.5259Z" fill="black" />
+                                    <path d="M18.5246 20.0781C17.4533 20.0781 16.5947 19.7867 15.9487 19.2038C15.3028 18.6051 14.9799 17.841 14.9799 16.9115C14.9799 15.6669 15.6022 14.6902 16.8467 13.9812C18.1071 13.2723 19.9346 12.8706 22.3292 12.776C22.3292 12.0356 22.2662 11.4921 22.1402 11.1455C22.0299 10.7831 21.8172 10.5389 21.5021 10.4129C21.2028 10.2711 20.738 10.2002 20.1079 10.2002C19.4619 10.2002 19.0051 10.2239 18.7372 10.2711L17.7684 12.1853L16.0196 12.0671C15.7518 10.8068 15.5628 9.49916 15.4525 8.14429C16.3347 7.84496 17.2957 7.60865 18.3355 7.43535C19.391 7.26205 20.3757 7.17541 21.2894 7.17541C22.9594 7.17541 24.1567 7.50624 24.8814 8.16792C25.6061 8.81385 25.9684 9.89301 25.9684 11.4054V16.3444C25.9684 16.6279 25.9921 16.8249 26.0393 16.9352C26.1024 17.0454 26.2284 17.1557 26.4174 17.266L27.3627 17.8095L27.2682 19.2747C25.4407 19.7 23.9992 19.9363 22.9436 19.9836C22.9121 19.8891 22.8649 19.7237 22.8018 19.4873C22.7388 19.2353 22.6837 18.999 22.6364 18.7784C22.022 19.1723 21.3446 19.4873 20.6041 19.7237C19.8794 19.96 19.1862 20.0781 18.5246 20.0781ZM20.1079 17.4078C20.738 17.4078 21.5021 17.1951 22.4001 16.7697L22.3056 14.9738C21.9275 14.9422 21.6754 14.9265 21.5494 14.9265C21.124 14.9265 20.6278 14.9738 20.0606 15.0683C19.4935 15.147 19.0445 15.2416 18.7136 15.3519C18.6664 15.5567 18.6427 15.7457 18.6427 15.919C18.6427 16.3916 18.7688 16.7619 19.0208 17.0297C19.2886 17.2817 19.651 17.4078 20.1079 17.4078Z" fill="black" />
+                                    <path d="M34.0171 20.0781C32.0163 20.0781 30.5197 19.5661 29.5272 18.5421C28.5504 17.5181 28.062 15.9505 28.062 13.8394C28.062 12.4846 28.3062 11.303 28.7946 10.2947C29.2987 9.28647 30.0156 8.51452 30.9451 7.97887C31.8746 7.44323 32.9695 7.17541 34.2298 7.17541C38.3102 7.17541 40.3503 9.28647 40.3503 13.5086C40.3503 15.5724 39.7911 17.1872 38.6725 18.353C37.5697 19.5031 36.0179 20.0781 34.0171 20.0781ZM34.3952 17.3133C34.7103 17.3133 34.986 17.2896 35.2223 17.2424C35.4586 17.1793 35.7107 17.0848 35.9785 16.9588C36.0731 16.5964 36.1518 16.1317 36.2148 15.5645C36.2779 14.9974 36.3094 14.4539 36.3094 13.934C36.3094 12.6579 36.1046 11.689 35.695 11.0273C35.3011 10.3656 34.7103 10.0348 33.9226 10.0348C33.4027 10.0348 32.8749 10.1057 32.3393 10.2475C32.229 10.4838 32.1424 10.8698 32.0794 11.4054C32.0163 11.9253 31.9848 12.524 31.9848 13.2014C31.9848 14.5248 32.1896 15.5409 32.5993 16.2498C33.0246 16.9588 33.6233 17.3133 34.3952 17.3133Z" fill="black" />
+                                    <path d="M61.4228 17.5259L62.8879 17.1006V5.78116C62.8879 5.43456 62.8643 5.214 62.817 5.11948C62.7698 5.0092 62.6437 4.89104 62.4389 4.76501L61.3992 4.22149L61.4701 2.42551L62.2026 2.30735C64.2822 1.92925 65.7395 1.72444 66.5744 1.69293C66.7162 2.07103 66.8186 2.48064 66.8816 2.92176V8.30971C67.7481 7.91586 68.4807 7.63228 69.0794 7.45898C69.6938 7.26993 70.3003 7.17541 70.899 7.17541C73.3566 7.17541 74.5854 8.67206 74.5854 11.6654V16.3207C74.5854 16.6516 74.6091 16.8721 74.6563 16.9824C74.7036 17.0927 74.8375 17.2109 75.0581 17.3369L76.1924 17.9986L76.0979 19.7709H69.5756L69.4575 17.5259L70.6154 17.1951V12.7051C70.6154 12.012 70.5918 11.5236 70.5445 11.24C70.513 10.9407 70.3869 10.7122 70.1664 10.5547C69.9458 10.3971 69.5756 10.3184 69.0557 10.3184C68.5516 10.3184 67.8269 10.405 66.8816 10.5783V16.3207C66.8816 16.6516 66.9053 16.8721 66.9525 16.9824C66.9998 17.0927 67.1258 17.2109 67.3306 17.3369L68.4886 17.9986L68.394 19.7709H61.5409L61.4228 17.5259Z" fill="black" />
+                                    <path d="M76.9995 17.5968L78.6537 17.1006V11.3582C78.6537 11.0116 78.6222 10.791 78.5592 10.6965C78.5119 10.5862 78.378 10.468 78.1575 10.342L77.1177 9.77486L77.2359 8.0025C78.5435 7.75044 79.5517 7.56926 80.2607 7.45898C80.9854 7.33295 81.647 7.26205 82.2457 7.2463C82.4505 7.92373 82.5765 8.42787 82.6238 8.75871V16.3207C82.6238 16.6516 82.6474 16.8721 82.6947 16.9824C82.742 17.0927 82.8759 17.2109 83.0964 17.3369L84.2544 17.9986L84.1598 19.7709H77.0704L76.9995 17.5968Z" fill="black" />
+                                    <path d="M41.1156 14.8754C41.1157 15.1095 41.1325 15.3433 41.1658 15.575L41.9598 15.5012L41.99 15.6687C42.0778 16.1986 42.2395 16.7135 42.4704 17.1984C42.6586 17.596 42.9258 17.951 43.2556 18.2419C43.5819 18.5176 43.9607 18.7242 44.3692 18.8492C44.8462 18.9928 45.3425 19.0622 45.8406 19.0551C46.357 19.0636 46.8722 19.0018 47.3719 18.8714C47.7632 18.7708 48.1285 18.5879 48.4434 18.3349C48.707 18.125 48.9254 17.8639 49.0854 17.5674C49.2241 17.2974 49.2955 16.9979 49.2935 16.6944C49.2954 16.5086 49.2662 16.3238 49.2071 16.1476C49.1504 15.9829 49.0639 15.8301 48.9518 15.6967C48.8143 15.5407 48.6517 15.4087 48.4707 15.3064C48.2225 15.1631 47.961 15.0442 47.6899 14.9514C47.4796 14.8776 47.1232 14.7736 46.6273 14.64C46.1314 14.5064 45.4938 14.3448 44.7168 14.1493C43.1715 13.7655 41.9753 13.3154 41.1171 12.7863L41.1156 14.8754Z" fill="#0B0EE1" />
+                                    <path d="M55.9128 0.078125H46.0133C44.8706 0.0784564 43.7639 0.47829 42.8849 1.20843C42.0059 1.93856 41.4097 2.95305 41.1997 4.07631C41.4197 3.94846 41.6474 3.83435 41.8816 3.73464C42.9147 3.29187 44.153 3.07639 45.5927 3.07639C46.7665 3.07639 47.7996 3.20603 48.6921 3.46529C49.5865 3.72579 50.3414 4.11911 50.9509 4.646C51.5427 5.1525 52.0166 5.78212 52.3397 6.49086C52.6675 7.23597 52.8451 8.03844 52.8622 8.85229L52.8688 9.0353L48.7902 9.21609L48.7629 9.05522C48.7016 8.64868 48.5802 8.2535 48.4028 7.88263C48.2611 7.5874 48.056 7.3271 47.8021 7.12033C47.5301 6.91357 47.2183 6.76534 46.8863 6.68494C46.4504 6.57909 46.0028 6.52949 45.5543 6.53735C45.082 6.53106 44.6108 6.58513 44.1522 6.69823C43.7815 6.78998 43.4311 6.95015 43.1191 7.17051C42.9553 7.28204 42.8204 7.43105 42.7258 7.60516C42.6384 7.77926 42.5946 7.97197 42.5981 8.16674C42.5963 8.34929 42.6372 8.52973 42.7177 8.69363C42.8077 8.86915 42.9334 9.02397 43.0866 9.1482C43.2233 9.25673 43.3718 9.34932 43.5294 9.4242C43.7606 9.53621 43.9982 9.63477 44.2408 9.71937C44.962 9.96771 45.6964 10.1761 46.4406 10.3437C48.2655 10.7783 49.6189 11.2211 50.514 11.6926C51.3816 12.1376 52.1126 12.81 52.6275 13.6379C53.1441 14.4673 53.3935 15.4827 53.3928 16.6797C53.393 17.7715 53.0758 18.8398 52.4799 19.7547L52.4674 19.7731H55.9106C57.2096 19.7731 58.4554 19.2571 59.3739 18.3386C60.2924 17.4201 60.8084 16.1744 60.8084 14.8754V4.97586C60.8084 3.67729 60.2927 2.43186 59.3746 1.51342C58.4566 0.594981 57.2114 0.078712 55.9128 0.078125Z" fill="#0B0EE1" />
+                                    <path d="M82.0094 1.22021L77.9921 2.28363L78.9846 5.89922L82.9783 4.81218L82.0094 1.22021Z" fill="#FF0000" />
+                                </svg>
+                            </div>
                             <div className="mx-auto max-w-3xl">
                                 <p className="mb-8 text-lg text-gray-700" data-aos="zoom-y-out" data-aos-delay="300">
                                 Better education develops the nation
@@ -55,151 +62,6 @@ export const Home = () => {
                     </div>
                 </div>
             </section>
-
-            <section>
-                <div className="mx-auto max-w-6xl px-4 sm:px-6">
-                    <div className="pb-12 md:pb-20">
-                        <div className="relative flex h-[324px] items-center justify-center">
-                            {/* Background circles */}
-                            <div className="absolute -z-10">
-                                <svg className="fill-blue-500" xmlns="http://www.w3.org/2000/svg" width="164" height="41" viewBox="0 0 164 41" fill="none">
-                                    <circle cx="1" cy="8" r="1" fillOpacity="0.24"></circle>
-                                    <circle cx="1" cy="1" r="1" fillOpacity="0.16"></circle>
-                                    <circle cx="1" cy="15" r="1"></circle>
-                                    <circle cx="1" cy="26" r="1" fillOpacity="0.64"></circle>
-                                    <circle cx="1" cy="33" r="1" fillOpacity="0.24"></circle>
-                                    <circle cx="8" cy="8" r="1"></circle>
-                                    <circle cx="8" cy="15" r="1"></circle>
-                                    <circle cx="8" cy="26" r="1" fillOpacity="0.24"></circle>
-                                    <circle cx="15" cy="15" r="1" fillOpacity="0.64"></circle>
-                                    <circle cx="15" cy="26" r="1" fillOpacity="0.16"></circle>
-                                    <circle cx="8" cy="33" r="1"></circle>
-                                    <circle cx="1" cy="40" r="1"></circle>
-                                    <circle cx="1" cy="1" r="1" transform="matrix(-1 0 0 1 164 7)" fillOpacity="0.24"></circle>
-                                    <circle cx="1" cy="1" r="1" transform="matrix(-1 0 0 1 164 0)" fillOpacity="0.16"></circle>
-                                    <circle cx="1" cy="1" r="1" transform="matrix(-1 0 0 1 164 14)"></circle>
-                                    <circle cx="1" cy="1" r="1" transform="matrix(-1 0 0 1 164 25)" fillOpacity="0.64"></circle>
-                                    <circle cx="1" cy="1" r="1" transform="matrix(-1 0 0 1 164 32)" fillOpacity="0.24"></circle>
-                                    <circle cx="1" cy="1" r="1" transform="matrix(-1 0 0 1 157 7)"></circle>
-                                    <circle cx="1" cy="1" r="1" transform="matrix(-1 0 0 1 157 14)"></circle>
-                                    <circle cx="1" cy="1" r="1" transform="matrix(-1 0 0 1 157 25)" fillOpacity="0.24"></circle>
-                                    <circle cx="1" cy="1" r="1" transform="matrix(-1 0 0 1 150 14)" fillOpacity="0.64"></circle>
-                                    <circle cx="1" cy="1" r="1" transform="matrix(-1 0 0 1 150 25)" fillOpacity="0.16"></circle>
-                                    <circle cx="1" cy="1" r="1" transform="matrix(-1 0 0 1 157 32)"></circle>
-                                    <circle cx="1" cy="1" r="1" transform="matrix(-1 0 0 1 164 39)"></circle>
-                                </svg>
-                            </div>
-
-                            {/* Blur effects */}
-                            <div className="absolute -z-10">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="432" height="160" viewBox="0 0 432 160" fill="none">
-                                    <g opacity="0.6" filter="url(#filter0_f_2044_9)">
-                                        <path className="fill-blue-500" fillRule="evenodd" clipRule="evenodd" d="M80 112C62.3269 112 48 97.6731 48 80C48 62.3269 62.3269 48 80 48C97.6731 48 171 62.3269 171 80C171 97.6731 97.6731 112 80 112ZM352 112C369.673 112 384 97.6731 384 80C384 62.3269 369.673 48 352 48C334.327 48 261 62.3269 261 80C261 97.6731 334.327 112 352 112Z"></path>
-                                    </g>
-                                    <defs>
-                                        <filter id="filter0_f_2044_9" x="0" y="0" width="432" height="160" filterUnits="userSpaceOnUse" colorInterpolationFilters="sRGB">
-                                            <feFlood floodOpacity="0" result="BackgroundImageFix"></feFlood>
-                                            <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"></feBlend>
-                                            <feGaussianBlur stdDeviation="32" result="effect1_foregroundBlur_2044_9"></feGaussianBlur>
-                                        </filter>
-                                    </defs>
-                                </svg>
-                            </div>
-
-                            {/* Gradient lines */}
-                            <div className="absolute inset-x-0 top-0 -z-10 h-px bg-gradient-to-r from-transparent via-gray-200 to-transparent mix-blend-multiply"></div>
-                            <div className="absolute inset-x-0 bottom-0 -z-10 h-px bg-gradient-to-r from-transparent via-gray-200 to-transparent mix-blend-multiply"></div>
-                            <div className="absolute inset-x-[200px] top-1/2 -z-10 h-px bg-gradient-to-r from-transparent via-blue-500/60 to-transparent mix-blend-multiply"></div>
-                            <div className="absolute inset-x-0 top-1/2 -z-10 h-px -translate-y-[82px] bg-gradient-to-r from-transparent via-gray-200 to-transparent mix-blend-multiply before:absolute before:inset-y-0 before:w-24 before:animate-[line_10s_ease-in-out_infinite_both] before:bg-gradient-to-r before:via-blue-500"></div>
-                            <div className="absolute inset-x-0 top-1/2 -z-10 h-px translate-y-[82px] bg-gradient-to-r from-transparent via-gray-200 to-transparent mix-blend-multiply before:absolute before:inset-y-0 before:w-24 before:animate-[line_10s_ease-in-out_infinite_5s_both] before:bg-gradient-to-r before:via-blue-500"></div>
-                            <div className="absolute inset-x-[300px] top-1/2 -z-10 h-px rotate-[20deg] bg-gradient-to-r from-transparent via-gray-200 to-transparent mix-blend-multiply"></div>
-                            <div className="absolute inset-x-[300px] top-1/2 -z-10 h-px -rotate-[20deg] bg-gradient-to-r from-transparent via-gray-200 to-transparent mix-blend-multiply"></div>
-                            <div className="absolute inset-y-0 left-1/2 -z-10 w-px -translate-x-[216px] bg-gradient-to-b from-gray-200 to-transparent mix-blend-multiply"></div>
-                            <div className="absolute inset-y-0 left-1/2 -z-10 w-px translate-x-[216px] bg-gradient-to-t from-gray-200 to-transparent mix-blend-multiply"></div>
-
-                            {/* Spinning animation */}
-                            <div className="absolute before:absolute before:-inset-3 before:animate-[spin_3s_linear_infinite] before:rounded-full before:border before:border-transparent before:[mask-composite:exclude_!important] before:[mask:linear-gradient(white_0_0)_padding-box,_linear-gradient(white_0_0)] before:[background:conic-gradient(from_180deg,transparent,theme(colors.blue.500))_border-box]">
-                                <div className="animate-[breath_8s_ease-in-out_infinite_both]">
-                                    <div className="flex h-24 w-24 items-center justify-center rounded-full bg-white shadow-lg">
-                                        <img alt="Logo 01" className="relative" src="https://simple.cruip.com//_next/static/media/logo-01.84f0bef6.svg" width="32" height="32" />
-                                    </div>
-                                </div>
-                            </div>
-
-                            {/* Logos */}
-                            <div className="relative flex flex-col">
-                                <article className="flex h-full w-full items-center justify-center">
-                                    {/* Logo 02 */}
-                                    <div className="absolute -translate-x-[136px]">
-                                        <div className="animate-[breath_7s_ease-in-out_3s_infinite_both]">
-                                            <div className="flex h-16 w-16 items-center justify-center rounded-full bg-white shadow-lg">
-                                                <img alt="Logo 02" className="relative" src="https://simple.cruip.com//_next/static/media/logo-02.c53c3b66.svg" width="23" height="22" />
-                                            </div>
-                                        </div>
-                                    </div>
-                                    {/* Logo 03 */}
-                                    <div className="absolute translate-x-[136px]">
-                                        <div className="animate-[breath_7s_ease-in-out_3.5s_infinite_both]">
-                                            <div className="flex h-16 w-16 items-center justify-center rounded-full bg-white shadow-lg">
-                                                <img alt="Logo 03" className="relative" src="https://simple.cruip.com//_next/static/media/logo-03.3b762385.svg" width="22" height="22" />
-                                            </div>
-                                        </div>
-                                    </div>
-                                    {/* Logo 04 */}
-                                    <div className="absolute -translate-x-[216px] -translate-y-[82px]">
-                                        <div className="animate-[breath_6s_ease-in-out_3.5s_infinite_both]">
-                                            <div className="flex h-20 w-20 items-center justify-center rounded-full bg-white shadow-lg">
-                                                <img alt="Logo 04" className="relative" src="https://simple.cruip.com//_next/static/media/logo-04.5487b301.svg" width="24" height="22" />
-                                            </div>
-                                        </div>
-                                    </div>
-                                    {/* Logo 05 */}
-                                    <div className="absolute -translate-y-[82px] translate-x-[216px]">
-                                        <div className="animate-[breath_6s_ease-in-out_1.5s_infinite_both]">
-                                            <div className="flex h-20 w-20 items-center justify-center rounded-full bg-white shadow-lg">
-                                                <img alt="Logo 05" className="relative" src="https://simple.cruip.com//_next/static/media/logo-05.6c7db8f6.svg" width="25" height="25" />
-                                            </div>
-                                        </div>
-                                    </div>
-                                    {/* Logo 06 */}
-                                    <div className="absolute translate-x-[216px] translate-y-[82px]">
-                                        <div className="animate-[breath_6s_ease-in-out_2s_infinite_both]">
-                                            <div className="flex h-20 w-20 items-center justify-center rounded-full bg-white shadow-lg">
-                                                <img alt="Logo 06" className="relative" src="https://simple.cruip.com//_next/static/media/logo-06.c9627b6e.svg" width="20" height="18" />
-                                            </div>
-                                        </div>
-                                    </div>
-                                    {/* Logo 07 */}
-                                    <div className="absolute -translate-x-[216px] translate-y-[82px]">
-                                        <div className="animate-[breath_6s_ease-in-out_2.5s_infinite_both]">
-                                            <div className="flex h-20 w-20 items-center justify-center rounded-full bg-white shadow-lg">
-                                                <img alt="Logo 07" className="relative" src="https://simple.cruip.com//_next/static/media/logo-07.e50f4152.svg" width="25" height="25" />
-                                            </div>
-                                        </div>
-                                    </div>
-                                    {/* Logo 08 */}
-                                    <div className="absolute -translate-x-[292px] opacity-40">
-                                        <div className="animate-[breath_6s_ease-in-out_2s_infinite_both]">
-                                            <div className="flex h-12 w-12 items-center justify-center rounded-full border border-gray-200/60 bg-white shadow-lg">
-                                                <img alt="Logo 08" className="relative" src="https://simple.cruip.com//_next/static/media/logo-08.121dd6fc.svg" width="20" height="20" />
-                                            </div>
-                                        </div>
-                                    </div>
-                                    {/* Logo 09 */}
-                                    <div className="absolute translate-x-[292px] opacity-40">
-                                        <div className="animate-[breath_6s_ease-in-out_4s_infinite_both]">
-                                            <div className="flex h-12 w-12 items-center justify-center rounded-full border border-gray-200/60 bg-white shadow-lg">
-                                                <img alt="Logo 09" className="relative" src="https://simple.cruip.com//_next/static/media/logo-09.177906bf.svg" width="21" height="13" />
-                                            </div>
-                                        </div>
-                                    </div>
-                                </article>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
         </>
     )
 }

@@ -112,7 +112,7 @@ export const TeacherExamView = ({ exam }) => {
                     <li key={question.id} className="mb-4">
                       <div className="flex justify-between items-baseline">
                         <div>
-                          <strong>{question.text}</strong> ({question.type})
+                          <p>{question.text}</p> ({question.type})
                           {question.type === 'multiple-choice' && (
                             <ol style={{ listStyleType: 'upper-alpha' }} className="ml-4 list-inside">
                               {question.options.map((option, index) => (

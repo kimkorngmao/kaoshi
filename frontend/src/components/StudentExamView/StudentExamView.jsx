@@ -53,7 +53,7 @@ export const StudentExamView = ({ exam, submittedAnswers }) => {
             <form onSubmit={handleSubmit}>
               {exam.questions.map((question) => (
                 <div key={question.id} className="mb-6">
-                  <h3 className="text-lg font-bold mb-2">{question.text}</h3>
+                  <h3 className="text-lg mb-2">{question.text}</h3>
 
                   {question.type === 'multiple-choice' ? (
                     <div>

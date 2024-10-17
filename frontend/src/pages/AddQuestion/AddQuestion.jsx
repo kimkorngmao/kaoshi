@@ -96,15 +96,15 @@ export const AddQuestion = () => {
                     {/* Question Text */}
                     <div className="md:col-span-5">
                       <label htmlFor="text" className="block text-gray-700">Question Text</label>
-                      <input
+                      <textarea
                         type="text"
                         name="text"
                         id="text"
                         value={questionData.text}
                         onChange={handleChange}
-                        className="h-10 border mt-1 rounded px-4 w-full bg-gray-50"
+                        className="h-10 border mt-1 rounded px-4 py-2 w-full bg-gray-50"
                         required
-                      />
+                      ></textarea>
                     </div>
 
                     {/* Question Type */}

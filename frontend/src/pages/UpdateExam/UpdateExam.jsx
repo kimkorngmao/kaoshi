@@ -74,7 +74,7 @@ export const EditExam = () => {
   return (
     <>
       <NavBar />
-      <div className="max-w-screen-lg mx-auto mt-28 px-4">
+      <div className="max-w-screen-lg mx-auto mt-28 px-4 pb-4">
         <div>
           <h2 className="font-semibold text-xl text-gray-600">Edit Exam</h2>
           <p className="text-gray-500 mb-6">Update the details of the exam.</p>

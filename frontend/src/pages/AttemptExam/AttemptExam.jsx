@@ -35,7 +35,7 @@ export const AttemptExam = () => {
   return (
     <>
       <NavBar />
-      <div className="mt-28 max-w-screen-lg mx-auto px-4">
+      <div className="mt-28 max-w-screen-lg mx-auto px-4 pb-4">
 
         {error ? 
         <>
