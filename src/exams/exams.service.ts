@@ -221,7 +221,7 @@ export class ExamsService {
       });
   
       // Calculate the final grade as the average of graded questions
-      const finalGrade = gradedQuestions > 0 ? totalGrade / gradedQuestions : null;
+      const finalGrade = gradedQuestions > 0 ? totalGrade : null;
   
       return {
         examId: exam.id,
