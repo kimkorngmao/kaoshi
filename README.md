@@ -69,7 +69,7 @@ The backend will run at `http://localhost:3000` (default NestJS port).
 The frontend will be accessible at `http://localhost:5173` (or another port, depending on your Vite configuration).
 
 ## Technologies Used
-- **Backend**: NestJS, TypeORM, MySQL, Passport (JWT-based authentication)
+- **Backend**: NestJS, TypeORM, MySQL, Passport (JWT-based authentication), OpenAPI (Swagger)
 - **Frontend**: React, Vite, Tailwind CSS
 - **Testing**: Jest (unit tests), Supertest (e2e testing)
 - **Build Tools**: Vite (for frontend), ESLint, Prettier
